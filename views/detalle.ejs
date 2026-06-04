@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= servicio.nombre %> — Turismo Regional</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .detalle { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 2rem; max-width: 400px; }
+    .tipo { font-size: 0.85rem; color: #666; text-transform: capitalize; }
+    .precio { font-weight: bold; color: #0070f3; margin-top: 0.5rem; font-size: 1.2rem; }
+    .volver { display: inline-block; margin-top: 1rem; color: #0070f3; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="detalle">
+      <h1><%= servicio.nombre %></h1>
+      <p class="tipo"><%= servicio.tipo %></p>
+      <p class="precio">$<%= servicio.precio %> MXN</p>
+      <p>ID: <%= servicio.id %></p>
+      <a class="volver" href="/base">← Volver al listado</a>
+    </div>
+  </div>
+</body>
+</html>
