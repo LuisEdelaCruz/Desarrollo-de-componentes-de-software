@@ -1,8 +1,9 @@
 const base = [
-  { id: 1, nombre: "Cabaña El Pino", tipo: "alojamiento", precio: 500 },
-  { id: 2, nombre: "Guía Sierra Norte", tipo: "guia", precio: 300 },
-  { id: 3, nombre: "Artesanías Ramírez", tipo: "artesano", precio: 150 },
-  { id: 4, nombre: "Restaurante La Milpa", tipo: "restaurante", precio: 200 },
+  { id:1, nombre: "ceramica", tipo: "taller", precio: 500 },
+  { id:2, nombre: "pintura", tipo: "taller", precio: 300 },
+  { id:3, nombre: "esculltura", tipo: "taller", precio: 650 },
+  { id:4, nombre: "textiles", tipo: "taller", precio: 500 },
+  { id:5, nombre: "joyeria", tipo: "taller", precio: 1000 },
 ];
 
 function getTodos() {
